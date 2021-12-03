@@ -1,8 +1,8 @@
 console.log('hello world');
 
 //CONNECT TO Moralis Server
-const serverUrl = "https://guelurd5uvvd.usemoralis.com:2053/server";
-const appId = "Q3ulQoqqZhyaMPgkV7lz01T4yn3GNrmqrPGJ4MXr";
+const serverUrl = "PASTE SERVER URL FROM Moralis Website";
+const appId = "PASTE SERVER APP ID FROM Moralis Website";
 Moralis.start({ serverUrl, appId });
 
 let homepage = "http://127.0.0.1:5500/index.html";
